@@ -16,7 +16,7 @@ players.push('Neymar');
 
 const newPlayers = players.map((player, i) => i + 1 + ". " + player);
 
-console.log(players, newPlayers);
+// console.log(players, newPlayers);
 
 
 
@@ -27,7 +27,7 @@ students = ['fdf', 343, 'dfdf'];
 students[0] = 4343;
 
 students.push(34);
-console.log(students);
+// console.log(students);
 
 // any one types in an array
 let peoples:string[] | number[] | boolean[];
