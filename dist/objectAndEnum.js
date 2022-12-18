@@ -33,4 +33,4 @@ var Configs;
     Configs["API_Key"] = "api_key";
     Configs["Domain_Name"] = "domain_name";
 })(Configs || (Configs = {}));
-console.log(Configs.API_Key);
+console.log(Configs.API_Key, Configs.Domain_Name);

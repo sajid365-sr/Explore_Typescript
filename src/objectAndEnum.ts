@@ -43,4 +43,4 @@ enum Configs {
     Domain_Name = 'domain_name'
 }
 
-console.log(Configs.API_Key);
+console.log(Configs.API_Key, Configs.Domain_Name);
