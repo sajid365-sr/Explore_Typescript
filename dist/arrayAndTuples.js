@@ -21,7 +21,7 @@ var peoples;
 peoples = ['dfdf', 'dfsdfgd'];
 peoples = [true, false, true];
 // index wise types by "Tuples"
-var man;
-man = ['fdfd', 'dfdfd', 3553, false, 'gfdg'];
+// let man: [string, string, number, boolean, string ];
+// man = ['fdfd', 'dfdfd', 3553, false, 'gfdg'];
 man[0] = 'ldgjdsf';
 man[2] = 353;

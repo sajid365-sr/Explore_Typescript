@@ -41,9 +41,8 @@
 // add = (num1, num2, num3 = 0) => {
 //     return num1 + num2 + num3;
 // };
-var add;
-add = function (num1, num2, num3) {
-    if (num3 === void 0) { num3 = 0; }
-    return num1 + num2 + num3;
-};
-console.log(add(10, 30));
+// let  add: Function;
+// add = (num1: number, num2: number, num3 = 0) => {
+//     return num1 + num2 + num3;
+// };
+// console.log(add(10,30));

@@ -25,7 +25,7 @@ interface Description {
     Johir: string;
 };
 
-let description: Description; // making an empty object using "Description" type;
+let description = {} as Description; // making an empty object using "Description" type;
 
 const friends = ["Arif","Johir"] as const;
 
