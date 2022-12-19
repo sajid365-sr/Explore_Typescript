@@ -71,3 +71,10 @@ isLoggedIn:true,
 
 }
 
+
+// try to find person.phone is "string" or "array";
+typeof person.phone === 'string' || person.phone.map((val) => val.toLowerCase());
+!(typeof person.phone === 'string') && person.phone.map((val) => val.toLowerCase());
+Array.isArray(person.phone) && person.phone.map((val) => val.toLowerCase());
+
+
