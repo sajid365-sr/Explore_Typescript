@@ -1,5 +1,5 @@
 
-// Explore Type Aliases (Type aliases ar moddhe amra different custom type rakhte parbo);
+// Explore Type Aliases (Type aliases is just like var. we can store different types here);
 
 
 type MyName = "Sajid" | "Sorker"; // declare custom type
@@ -17,11 +17,11 @@ let man: Man =  ['dfdfre', 'dfsdf', 533, true, 'dfdfd'];
 
 
 // Make function signature using custom type
-type Add = (num1: number, num2: number, num3?: number) => number; 
-const add: Add = (num1, num2, num3 = 0) => {
+// type Add = (num1: number, num2: number, num3?: number) => number; 
+// const add: Add = (num1, num2, num3 = 0) => {
 
-    return num1 + num2 + num3;
-};
+//     return num1 + num2 + num3;
+// };
 
 // Make custom object type
 
@@ -33,6 +33,9 @@ type Favorite = {
     type: "food" | "player" | "singer" | "actor";
     value: string;
 };
+type Auth = {
+    isLoggedIn: boolean;
+};
 
 type Person = {
     name: string;
@@ -41,7 +44,7 @@ type Person = {
     phone: string | string[];
     address: Address;
     favorites: Favorite[];
-};
+} & Auth;
 
 
 
@@ -63,7 +66,8 @@ favorites: [
         type: 'player',
         value:'Messi',
     },
-]
+],
+isLoggedIn:true,
 
 }
 
